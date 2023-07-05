@@ -1,6 +1,6 @@
 id: geotagging
 name: Geotagging photo
-version: 0.0.1
+version: 1.0.0
 extensions:
   - id: geotagging
     type: widget

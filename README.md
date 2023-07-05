@@ -1,6 +1,6 @@
 # GeoTagging プラグイン
 
-<img width="1383" alt="WX20220809-171914@2x" src="https://github.com/eukarya-inc/reearth-plugin-geotagging/assets/13118515/6ed23d2b-3d30-4fa9-ab38-205b5dd9e772">
+![](https://github.com/eukarya-inc/reearth-plugin-geotagging/assets/13118515/6ed23d2b-3d30-4fa9-ab38-205b5dd9e772)
 
 ## このプラグインについて
 - 写真のEXIFデータから緯度、経度情報を取得し、該当の座標にフォトオーバーレイレイヤーを作成し写真をマッピングします。マッピングされた写真はアイコンとして表示され、アイコンをクリックするとオリジナルの写真が表示されます。写真に説明文を付加することもできます。
@@ -76,6 +76,7 @@
 ソースコードはこちら(https://github.com/eukarya-inc/reearth-plugin-geotagging)
 
 本プラグインを使用したサンプルページは以下から閲覧することができます。
+
 https://geotagging-plugin-sample.reearth.io
 
 - コミュニティ
