@@ -9,14 +9,14 @@
 ## 使用方法
 ### 右パネルの設定項目
 - Image List タブ<br>
-  読み込む写真を指定します。リストを追加する時には＋ボタンを押します。
+  読み込む写真を指定します。Image Listの「＋」ボタンをクリックし、画像リストを追加してください。
 
     ![](https://github.com/eukarya-inc/reearth-plugin-geotagging/assets/13118515/47c7f487-3cf1-43eb-aef2-fa8dd96a33e0)
 
-  各パラメータの説明
+  各画像に以下の各パラメータを設定します。
   - Image
     必須項目です。
-    読み込むジオタグ付き画像を指定します。
+    読み込むジオタグ付き画像を指定してください。
   - Height
 
     地上からの高さを指定します。実際のマッピング位置は次のHeight Standardパラメータの指定従います。
@@ -74,6 +74,9 @@
  ![](https://github.com/eukarya-inc/reearth-plugin-geotagging/assets/13118515/7a02274f-7afa-41fa-a9f8-d720c365978c)
 
 ソースコードはこちら(https://github.com/eukarya-inc/reearth-plugin-geotagging)
+
+本プラグインを使用したサンプルページは以下から閲覧することができます。
+https://geotagging-plugin-sample.reearth.io
 
 - コミュニティ
 
