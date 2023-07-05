@@ -1,0 +1,93 @@
+id: geotagging
+name: Geotagging photo
+version: 0.0.1
+extensions:
+  - id: geotagging
+    type: widget
+    name: Geotagging photo
+    widgetLayout:
+      floating: true
+    schema:
+      groups:
+        - id: image_list
+          list: true
+          title: Image List
+          fields:
+            - id: image_url
+              type: url
+              title: Image
+              ui: image
+            - id: height
+              type: number
+              title: Height
+            - id: heightReference
+              type: string
+              title: Height standard
+              description: The position relative to the terrain. By default, it is the absolute altitude from the WGS84 ellipsoid.
+              defaultValue: none
+              choices:
+                - key: none
+                  label: Absolute
+                - key: clamp
+                  label: Clamp to ground
+                - key: relative
+                  label: Relative to ground
+            - id: camera
+              type: camera
+              title: Camera
+              description: Set the camera position for the overlay.
+            - id: imageSize
+              type: number
+              title: Icon size
+              prefix: x
+            - id: imageCrop
+              type: string
+              title: Icon crop
+              defaultValue: none
+              choices:
+                - key: none
+                  label: None
+                - key: circle
+                  label: Circle
+            - id: imageShadow
+              type: bool
+              title: Icon shadow
+            - id: imageShadowColor
+              type: string
+              title: Shadow color
+              ui: color
+              availableIf:
+                field: imageShadow
+                type: bool
+                value: true
+            - id: imageShadowBlur
+              type: number
+              title: Shadow radius
+              defaultValue: 3
+              suffix: px
+              availableIf:
+                field: imageShadow
+                type: bool
+                value: true
+            - id: imageShadowPositionX
+              type: number
+              title: Shadow X
+              suffix: px
+              defaultValue: 0
+              availableIf:
+                field: imageShadow
+                type: bool
+                value: true
+            - id: imageShadowPositionY
+              type: number
+              title: Shadow Y
+              suffix: px
+              defaultValue: 0
+              availableIf:
+                field: imageShadow
+                type: bool
+                value: true
+            - id: photoOverlayDescription
+              type: string
+              ui: multiline
+              title: Photo description
